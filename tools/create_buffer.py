@@ -2,7 +2,7 @@
 
 # Copyright 2018-2020 Google LLC
 #
-# This is part of the Google Cloud IoT Device SDK for Embedded C.
+# This is part of the ClearBlade Cloud IoT Device SDK for Embedded C.
 # It is licensed under the BSD 3-Clause license; you may not use this file
 # except in compliance with the License.
 #
@@ -36,9 +36,9 @@ def tabs_2_spaces(s):
 
 h_pro = tabs_2_spaces(
     """\
-/* Copyright 2018-2020 Google LLC
+/* Copyright 2022 ClearBlade LLC
  *
- * This is part of the Google Cloud IoT Device SDK for Embedded C.
+ * This is part of the ClearBlade Cloud IoT Device SDK for Embedded C.
  * It is licensed under the BSD 3-Clause license; you may not use this file
  * except in compliance with the License.
  *
