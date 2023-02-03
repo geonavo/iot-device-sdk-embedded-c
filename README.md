@@ -137,6 +137,8 @@ Review the following documentation:
 ## License
 Copyright 2023 ClearBlade Inc.
 
+Licensed under the BSD 3-Clause license.
+
 Copyright 2018-2020 Google LLC
 
 Licensed under the BSD 3-Clause license.
