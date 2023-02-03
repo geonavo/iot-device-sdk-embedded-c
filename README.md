@@ -135,6 +135,8 @@ Review the following documentation:
 - Device SDK [API](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/api/html/) and [BSP](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/bsp/html/) references.
 
 ## License
+Copyright 2023 ClearBlade Inc.
+
 Copyright 2018-2020 Google LLC
 
 Licensed under the BSD 3-Clause license.

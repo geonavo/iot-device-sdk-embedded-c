@@ -1,3 +1,4 @@
+# Copyright 2023 ClearBlade Inc.
 # Copyright 2018-2020 Google LLC
 #
 # This is part of the Google Cloud IoT Device SDK for Embedded C.

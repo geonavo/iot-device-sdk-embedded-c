@@ -1,6 +1,6 @@
 # ClearBlade Cloud IoT Device SDK for Embedded C User Guide
 
-##### Copyright 2018-2020 ClearBlade LLC
+##### Copyright 2018-2020 ClearBlade Inc.
 
 This document explains how applications can use the ClearBlade Cloud IoT Device SDK for Embedded C to connect to ClearBlade Cloud IoT Core. It also describes the security and communication features of the Device SDK.
 

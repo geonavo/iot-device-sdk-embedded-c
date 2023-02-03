@@ -1,6 +1,6 @@
 # ClearBlade Cloud IoT Device SDK for Embedded C Porting Guide
 
-##### Copyright 2018-2020 ClearBlade LLC
+##### Copyright 2018-2020 ClearBlade Inc.
 
 ## Table of Contents
 1. [Introduction](#introduction)

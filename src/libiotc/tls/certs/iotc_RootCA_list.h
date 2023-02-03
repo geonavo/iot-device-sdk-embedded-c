@@ -1,4 +1,4 @@
-/* Copyright 2022 ClearBlade LLC
+/* Copyright 2022 ClearBlade Inc.
  *
  * This is part of the ClearBlade Cloud IoT Device SDK for Embedded C.
  * It is licensed under the BSD 3-Clause license; you may not use this file
