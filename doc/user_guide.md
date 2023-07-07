@@ -208,7 +208,7 @@ Note: the call to connect returns immediately. The connection operation is fulfi
 
 #### Connect callback
 
-When the **`iotc_connect()`** function runs, the Device SDK initalizes a callback function. The callback function is invoked when a connection to Cloud IoT Core is established or when the connection is unsuccessful. The callback function is also invoked when an established connection is lost or shut down. See [Step 5: Disconnect and Shut Down](#step-6-disconnect-and-shut-down) for details.
+When the **`iotc_connect()`** function runs, the Device SDK initalizes a callback function. The callback function is invoked when a connection to Cloud IoT Core is established or when the connection is unsuccessful. The callback function is also invoked when an established connection is lost or shut down. See [Step 5: Disconnect and Shut Down](#step-5-disconnect-and-shut-down) for details.
 
 ### Step 3: Process events
 
