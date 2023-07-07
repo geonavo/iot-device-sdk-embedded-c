@@ -114,13 +114,6 @@ The Device SDK supports other TLS libraries through the BSP TLS API. For configu
 
 Nineteen combinations of compilers and feature sets are continuously built. After each build, 58 functional, 23 integration, and 199 unit tests are executed. Tests are executed against the TLS libraries [mbedTLS](https://tls.mbed.org) and [wolfSSL](https://www.wolfssl.com).
 
-Branch      | Build status
-------------|-------------
-master      | [![Build Status][travis-badge]][travis-url]
-
-[travis-badge]: https://travis-ci.com/GoogleCloudPlatform/iot-device-sdk-embedded-c.svg?branch=master
-[travis-url]: https://travis-ci.com/GoogleCloudPlatform/iot-device-sdk-embedded-c
-
 ## Contributing
 
 For information about contributing to this repository, see
