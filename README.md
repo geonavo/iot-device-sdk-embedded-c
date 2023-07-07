@@ -125,7 +125,6 @@ Review the following documentation:
 
 - [`doc/user_guide.md`](doc/user_guide.md): User guide that covers Device SDK features and usage.
 - [`doc/porting_guide.md`](doc/porting_guide.md): Porting guide that provides information about porting the Device SDK to target devices.
-- Device SDK [API](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/api/html/) and [BSP](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/bsp/html/) references.
 
 ## License
 Copyright 2023 ClearBlade Inc.
