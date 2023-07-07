@@ -7,7 +7,6 @@ This document explains how applications can use the ClearBlade Cloud IoT Device 
 For a complete API reference and code samples, see the following directories in the [ClearBlade Cloud IoT Device SDK for Embedded C GitHub repository](https://github.com/ClearBlade/iot-device-sdk-embedded-c).
 
  * `examples/`: Includes an example of how to connect and publish/subscribe to Cloud IoT Core MQTT topics
- * Device SDK [API](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/api/html/index.html) and [BSP](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/bsp/html/index.html) reference documentation.
 
 The first part of this user guide summarizes features and requirements. If you're ready to use the Device SDK, review the [Typical client application workflow](#typical-client-application-workflow).
 
@@ -60,7 +59,7 @@ The footprint also includes a TLS adaptation layer but not a TLS implementation 
 
 ### MQTT v3.1.1
 
-The Device SDK communicates over Pub/Sub topics with MQTT. The Device SDK connects a TCP socket to the [Cloud IoT Core MQTT bridge](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2202566686/Publishing+over+MQTT). The Device SDK then requests subscriptions to one or many topics via the socket. After the Device SDK subscribes to a topic, all incoming data is published to the client application on the embedded device. 
+The Device SDK communicates over Pub/Sub topics with MQTT. The Device SDK connects a TCP socket to the [IoT Core MQTT bridge](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2202566686/Publishing+over+MQTT). The Device SDK then requests subscriptions to one or many topics via the socket. After the Device SDK subscribes to a topic, all incoming data is published to the client application on the embedded device. 
 
 Similarly, devices can publish to one or many topics to perform outgoing communication with IoT Core. The device doesn't need to keep track of numerous connections, report connection state, or broadcast messages to multiple addresses. Instead, the device publishes a message to a topic. IoT Core automatically routes the message to the associated [subscriptions](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2202206388/Creating+registries+and+devices). Because routing and permissions are handled in the cloud, the Device SDK reduces the device's communication overhead.
 
@@ -476,7 +475,7 @@ The following documentation is also available:
 * [Device SDK releases](https://github.com/ClearBlade/iot-device-sdk-embedded-c/releases)
 * [Device SDK GitHub](https://github.com/ClearBlade/iot-device-sdk-embedded-c)
 * [Device SDK porting guide](https://github.com/ClearBlade/iot-device-sdk-embedded-c/blob/master/doc/porting_guide.md)
-* [Cloud IoT Core quickstart](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2209185812/Quick+Start)
+* [IoT Core quickstart](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2209185812/Quick+Start)
 * Device SDK [API reference](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/api/html/index.html).
 * Device SDK [BSP reference](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/bsp/html/index.html).
 
