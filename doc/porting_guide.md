@@ -156,8 +156,6 @@ Application binaries and sources are in the `examples/` directory.
 
 These examples use the Device SDK to connect to Cloud IoT Core, subscribe to Cloud Pub/Sub topics, publish information to Cloud IoT Core, and receive data from Cloud IoT Core.
 
-The examples' source code shows you how to initialize and use the Device SDK's C API.
-
 To build the examples, follow the [instructions in the main `README.md`](https://github.com/ClearBlade/iot-device-sdk-embedded-c/#building-the-examples).
 
 # Porting
