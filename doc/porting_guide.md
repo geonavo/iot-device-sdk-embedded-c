@@ -170,7 +170,7 @@ The Board Support Package (BSP) is the well-defined set of functions that the De
 
 The BSP implementation is in the `src/bsp` directory. When porting the Device SDK to your platform SDK, ignore the MQTT codec and the non-blocking/asynchronous engine that appear elsewhere in the source.
 
-BSP function declarations are in the `include/bsp` directory. For generated function documentation, see the Device SDK [BSP reference](https://googlecloudplatform.github.io/iot-device-sdk-embedded-c/bsp/html/index.html).
+BSP function declarations are in the `include/bsp` directory.
 
 BSP functions are organized into logical subsystems as follows.
 
