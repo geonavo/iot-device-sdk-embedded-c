@@ -1,6 +1,6 @@
 # FreeRTOS example
 
-This example uses the ClearBlade Cloud IoT Device SDK for Embedded C to connect a FreeRTOS application to the [CleaBlade Cloud IoT Core MQTT bridge](https://cloud.ClearBlade.com/iot/docs/how-tos/mqtt-bridge#iot-core-mqtt-auth-run-cpp).
+This example uses the ClearBlade Cloud IoT Device SDK for Embedded C to connect a FreeRTOS application to the [ClearBlade Cloud IoT Core MQTT bridge](https://cloud.ClearBlade.com/iot/docs/how-tos/mqtt-bridge#iot-core-mqtt-auth-run-cpp).
 
 ## Getting started
 
@@ -8,9 +8,9 @@ Follow the steps below to connect the FreeRTOS application to the MQTT bridge.
 
 Before you begin, generate a [public/private key pair](https://clearblade.atlassian.net/wiki/spaces/IC/pages/2202763333/Creating+key+pairs), store the private key in the `examples/freertos_linux/Linux_gcc_gcp_iot` directory, and name the key `ec_private.pem`. 
 
-1. Run `make PRESET=FREERTOS_POSIX_REL` in the root directory of the repository. This command downloads of the [FreeRTOS kernel](https://www.freertos.org/index.html), downloads the [FreeRTOS Linux simulator](https://www.freertos.org/FreeRTOS-simulator-for-Linux.html), and ports the Device SDK to the FreeRTOS application.
+1. Run `make PRESET=FREERTOS_POSIX_REL` in the repository's root directory. This command downloads the [FreeRTOS kernel](https://www.freertos.org/index.html) and [FreeRTOS Linux simulator](https://www.freertos.org/FreeRTOS-simulator-for-Linux.html) and ports the Device SDK to the FreeRTOS application.
 
-2. From the root directory, generate the `Linux_gcc_gcp_iot` application for Linux.
+2. Generate the `Linux_gcc_gcp_iot` Linux application from the root directory.
 
 ```
 cd examples/freertos_linux/Linux_gcc_gcp_iot \
