@@ -83,7 +83,7 @@ cd bin/{host_os}/tests
 Before building the examples, build the Device SDK static library and a TLS library, as described in the preceding sections. Then, complete the steps below to run the examples.
 
 1. Create a project, registry, and device in Cloud IoT Core.
-2. Create [Cloud IoT Core device credentials](https://cloud.google.com/iot/docs/how-tos/credentials/keys).
+2. Create Cloud IoT Core device credentials.
 3. Follow the steps in the examples README.md files to provision the device credentials and build the client applications.
 4. Run `make` in the [`examples`](examples) folder. The `make` process automatically downloads the ClearBlade Root CA PEM file to the example directories. The file enables TLS when communicating with Cloud IoT Core.
 
