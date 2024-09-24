@@ -252,7 +252,7 @@ int iotc_utests_main(int argc, char const* argv[])
 {
   /* caller supplied custom hostURL and port number  */
   /* Example: */
-  /*setHostNameAndPort("us-central1-mqtt.clearblade.com", "443");*/
+  /*setHostNameAndPort("us-central1-g5-mqtt.clearblade.com", "443");*/
 
   // report test start
   iotc_test_report_result(

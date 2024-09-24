@@ -23,4 +23,4 @@ cd bin \
 ./iot_core_mqtt_client -p <i><b>PROJECT_ID</b></i> -d projects/<i><b>PROJECT_ID</b></i>/locations/<i><b>REGION</b></i>/registries/<i><b>REGISTRY_ID</b></i>/devices/<i><b>DEVICE_ID</b></i> -t /devices/<i><b>DEVICE_ID</b></i>/state
 </pre>
 
-You may optionally send messages, MQTT URLs, and ports with flags -u and -n, respectively. Example: -m something -u us-central1-mqtt.clearblade.com -n 8883
+You may optionally send messages, MQTT URLs, and ports with flags -u and -n, respectively. Example: -m something -u us-central1-g5-mqtt.clearblade.com -n 8883
