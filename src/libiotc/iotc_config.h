@@ -59,15 +59,15 @@
 
 #ifndef IOTC_MQTT_HOST_US_CENTRAL
 #define IOTC_MQTT_HOST_US_CENTRAL \
-  { "us-central1-mqtt.clearblade.com", IOTC_MQTT_PORT }
+  { "us-central1-g5-mqtt.clearblade.com", IOTC_MQTT_PORT }
 #endif
 #ifndef IOTC_MQTT_HOST_EUROPE_WEST1
 #define IOTC_MQTT_HOST_EUROPE_WEST1 \
-  { "europe-west1-mqtt.clearblade.com", IOTC_MQTT_PORT }
+  { "europe-west1-g5-mqtt.clearblade.com", IOTC_MQTT_PORT }
 #endif
 #ifndef IOTC_MQTT_HOST_ASIA_EAST1
 #define IOTC_MQTT_HOST_ASIA_EAST1 \
-  { "asia-east1-mqtt.clearblade.com", IOTC_MQTT_PORT }
+  { "asia-east1-g5-mqtt.clearblade.com", IOTC_MQTT_PORT }
 #endif
 
 #endif /* __IOTC_CONFIG_H__ */
