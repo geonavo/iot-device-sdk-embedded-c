@@ -23,7 +23,7 @@ extern "C" {
 #endif
 
 #ifndef IOTC_ROOTCA_LIST_BYTE_LENGTH
-#define IOTC_ROOTCA_LIST_BYTE_LENGTH 1360
+#define IOTC_ROOTCA_LIST_BYTE_LENGTH 802
 #endif /* IOTC_ROOTCA_LIST_BYTE_LENGTH */
 
 extern unsigned char iotc_RootCA_list[ IOTC_ROOTCA_LIST_BYTE_LENGTH ];
