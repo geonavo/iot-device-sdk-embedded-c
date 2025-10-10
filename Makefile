@@ -214,13 +214,12 @@ $(IOTC_OBJDIR)/%.o : $(LIBIOTC)/src/%.cc $(IOTC_BUILD_PRECONDITIONS)
 IOTC_BUILTIN_ROOTCA_CERTS := $(LIBIOTC)/res/trusted_RootCA_certs/roots.pem
 
 $(IOTC_BUILTIN_ROOTCA_CERTS):
-	curl -s "https://pki.goog/gtsltsr/gtsltsr.crt" \
-		| openssl x509 -inform der -outform pem \
-		> $@
+	curl -s "https://cacerts.digicert.com/DigiCertTLSECCP384RootG5.crt.pem" > $@
 
-	curl -s "https://pki.goog/gsr4/GSR4.crt" \
-		| openssl x509 -inform der -outform pem \
-		>> $@
+	@# `mbedtls_prepare_certificate_buffer` in
+	@# src/bsp/tls/mbedtls/iotc_bsp_tls_mbedtls.c expects `roots.pem` to end
+	@# with a newline character: use sed to ensure this is the case
+	tmpfile=$$(mktemp); sed -e '$$a\' $@ > $$tmpfile && mv $$tmpfile $@
 
 .PHONY: update_builtin_cert_buffer
 update_builtin_cert_buffer: $(IOTC_BUILTIN_ROOTCA_CERTS)
